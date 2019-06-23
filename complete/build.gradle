@@ -29,5 +29,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-batch")
     compile("org.hsqldb:hsqldb")
     testCompile("junit:junit")
+    
+    // https://mvnrepository.com/artifact/org.gradle/gradle-tooling-api
+compile group: 'org.gradle', name: 'gradle-tooling-api', version: '3.1'
 }
 
